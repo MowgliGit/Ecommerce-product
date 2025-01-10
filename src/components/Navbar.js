@@ -128,7 +128,11 @@ function Navbar({ cartCount, toggleCartVisibility }) {
             />
             {cartCount > 0 && <span className="cartCount">{cartCount}</span>}
           </div>
-          <img src="./images/image-avatar.png" className="user" alt="avatar" />
+          <img
+            src={`${process.env.PUBLIC_URL}/images/image-avatar.png`}
+            className="user"
+            alt="avatar"
+          />
         </div>
       </header>
     </>
