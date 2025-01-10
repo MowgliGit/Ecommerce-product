@@ -201,9 +201,7 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-
   align-items: center;
-
   cursor: pointer;
 }
 .userBar {
@@ -272,8 +270,7 @@ a:link {
 }
 
 /*END OF  NAVIGATION */
-/* MAIN  */
-
+/* MAIN PART */
 /* GALLERY */
 .galleryCard {
   padding: 10px;
