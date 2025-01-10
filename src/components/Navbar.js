@@ -44,7 +44,11 @@ function Navbar({ cartCount, toggleCartVisibility }) {
   return (
     <>
       <header className="header">
-        <img src="./images/logo.svg" alt="logo" className="logo" />
+        <img
+          src={`${process.env.PUBLIC_URL}/images/logo.svg`}
+          alt="logo"
+          className="logo"
+        />
         <div className="navigation">
           {!isDesktop && (
             <button className="open" onClick={updateOpen}>
@@ -118,7 +122,7 @@ function Navbar({ cartCount, toggleCartVisibility }) {
         <div className="userBar">
           <div className="cart" onClick={toggleCartVisibility}>
             <img
-              src="./images/icon-cart.svg"
+              src={`${process.env.PUBLIC_URL}/images/icon-cart.svg`}
               className="icon-cart"
               alt="icon cart"
             />

@@ -41,14 +41,20 @@ export default function Item({ addToCart }) {
             onClick={() => setCount((c) => Math.max(c - 1, 0))}
             className="button-minus"
           >
-            <img src="./images/icon-minus.svg" alt="minus" />
+            <img
+              src={`${process.env.PUBLIC_URL}/images/icon-minus.svg`}
+              alt="minus"
+            />
           </button>
           <div className="number">{count}</div>
           <button
             onClick={() => setCount((c) => c + 1)}
             className="button-plus"
           >
-            <img src="./images/icon-plus.svg" alt="plus" />
+            <img
+              src={`${process.env.PUBLIC_URL}/images/icon-plus.svg`}
+              alt="plus"
+            />
           </button>
         </div>
         <button

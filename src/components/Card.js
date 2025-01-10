@@ -13,7 +13,7 @@ export default function Card({ cartItems, removeFromCart, handleCheckout }) {
           cartItems.map((product) => (
             <div className="cartProduct" key={product.id}>
               <img
-                src="./images/image-product-1.jpg"
+                src={`${process.env.PUBLIC_URL}/images/image-product-1.jpg`}
                 className="cartImg"
                 alt="product"
               />

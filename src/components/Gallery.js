@@ -13,10 +13,10 @@ export default function Gallery() {
     return () => window.removeEventListener("resize", updateMedia);
   });
   const images = [
-    "./images/image-product-1.jpg",
-    "./images/image-product-2.jpg",
-    "./images/image-product-3.jpg",
-    "./images/image-product-4.jpg",
+    `${process.env.PUBLIC_URL}/images/image-product-1.jpg`,
+    `${process.env.PUBLIC_URL}/images/image-product-2.jpg`,
+    `${process.env.PUBLIC_URL}/images/image-product-3.jpg`,
+    `${process.env.PUBLIC_URL}/images/image-product-4.jpg`,
   ];
 
   const [lightboxOpen, setLightboxOpen] = useState(false);
