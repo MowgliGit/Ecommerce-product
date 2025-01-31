@@ -384,13 +384,13 @@ a:link {
 .icon-next {
   text-align: center;
   position: absolute;
-  top: 50%;
+  top: 43%;
   z-index: 10;
   border: 1px solid hsl(219, 9%, 45%);
 }
 .icon-previous {
   left: 0;
-  transform: translate(-50%, -100%);
+  transform: translate(-45%, -100%);
 }
 .icon-next {
   right: 0;
