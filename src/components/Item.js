@@ -21,7 +21,7 @@ export default function Item({ addToCart }) {
         <span className="card-box-shorttitle">Sneaker company</span>
         <h1 className="card-box-title">Fall limited edition sneakers</h1>
         <p className="card-box-text">
-          These low profile sneakers are your perfect casual wear companion.
+          These low-profile sneakers are your perfect casual wear companion.
           Featuring a durable rubber outer sole, they will withstand everything
           the weather can offer.
         </p>
